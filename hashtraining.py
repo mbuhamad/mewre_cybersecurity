@@ -1,3 +1,5 @@
+# Mashal Buhamad 2022 #
+# Hash function taking input from argv
 from sys import argv as inp
 inp.pop(0)
 inp=(' '.join(inp))
