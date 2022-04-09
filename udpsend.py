@@ -4,7 +4,7 @@
 # Python3 script for UDP msg sender
 
 import socket
-UDP_IP = "127.0.0.1"
+UDP_IP = "127.0.0.1" # set the up address of the local machine
 UDP_PORT = 965
 while True:
 	MESSAGE = input("Enter your msg here:")
