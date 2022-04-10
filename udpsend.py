@@ -5,7 +5,7 @@
 
 import socket
 UDP_IP = "127.0.0.1" # set the up address of the local machine
-UDP_PORT = 965
+UDP_PORT = 965		 #965 is Kuwait country code !
 while True:
 	MESSAGE = input('Enter your msg here:')
 	MESSAGE = MESSAGE.encode('utf-8') 
