@@ -13,4 +13,4 @@ while True:
 	print('UDP target port:',UDP_PORT)
 	print('message sent:',MESSAGE.decode()) 
 	sock = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
-	sock.sendto(MESSAGE, (UDP_IP, UDP_PORT))
+	sock.sendto(MESSAGE, (UDP_IP,UDP_PORT))
